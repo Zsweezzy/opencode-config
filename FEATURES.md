@@ -27,10 +27,18 @@ What this environment provides, and what this repository contains.
   - `cargo test` green, `cargo audit` for new deps, rustdoc on public items,
     `tracing` observability.
   - Python only when explicitly requested or ecosystem-bound.
-- **Curated 71-skill priority index** in 10 categories: core engineering loop,
-  Rust & code quality, planning/design/workflow, writing & documentation,
-  product & GTM, security & auditing routers, platform families (Azure, Qdrant,
-  video, GitHub/CI, GraphQL), and meta. Fallback routing covers everything else.
+- **Curated 68-skill set advertised, 801 muted** out of 848. Muted skills carry
+  `metadata: { opencode/autoinvoke: false }`: absent from the advertised list,
+  still loadable by exact id, and listed in `SKILLS.md` so they stay greppable.
+  A session-start prompt on a trivial `hi` measures **12,222 input tokens**,
+  down from 93,058 before curation.
+- **`skill-routing` skill** carries the 71-skill priority index in 10
+  categories: core engineering loop, Rust & code quality, planning/design/
+  workflow, writing & documentation, product & GTM, security & auditing
+  routers, platform families (Qdrant, GitHub/CI, GraphQL), and meta. It loads on
+  demand, so it costs nothing until a task is genuinely ambiguous.
+- **`house-rules` skill** carries the three standing non-negotiables and is also
+  loaded on demand. Fallback routing covers everything else.
 - **Ponytail mode** (`/ponytail`, plus `lite|full|ultra`): a standing directive
   to prefer the smallest working change, with an explicit list of what must
   never be simplified away (validation, error handling that prevents data loss,

@@ -37,7 +37,7 @@ list below.
 
 ## Inventory at snapshot time
 
-846 directories / 870 `SKILL.md` files.
+848 skill directories / 872 `SKILL.md` files (847 under `~/.agents/skills` — one is a symlink — plus 25 nested, and the `opencode` guide from `~/.hermes`).
 
 Provenance groups:
 
@@ -58,7 +58,7 @@ redistribution, and they are not duplicated here because the inventory plus
 their upstream is enough to restore them.
 
 <details>
-<summary>Full directory list (846)</summary>
+<summary>Full directory list (848)</summary>
 
 ```
   401-403-bypass-techniques
@@ -75,18 +75,18 @@ their upstream is enough to restore them.
   adobe-illustrator-scripting
   agent-architecture
   agent-governance
-  agentic-eval
-  agentic-workflows
   agent-owasp-compliance
   agent-skill-stack
   agent-supply-chain
+  agentic-eval
+  agentic-workflows
   ai-debt-detector
   ai-ml-security
   ai-prompt-engineering-safety-review
   ai-ready
+  ai-team-orchestration
   airflow-dag-patterns
   airunway-aks-setup
-  ai-team-orchestration
   android-pentesting-tricks
   angular-migration
   anti-debugging-techniques
@@ -110,10 +110,10 @@ their upstream is enough to restore them.
   appinsights-instrumentation
   apple-appstore-reviewer
   arbitrary-write-to-rce
+  arch-linux-triage
   architecture-blueprint-generator
   architecture-decision-records
   architecture-patterns
-  arch-linux-triage
   arduino-azure-iot-edge-integration
   arize-ai-provider-integration
   arize-annotation
@@ -131,9 +131,9 @@ their upstream is enough to restore them.
   attack-surface-mapping
   attack-tree-construction
   audit-integrity
-  authbypass-authentication-flaws
   auth-implementation-patterns
   auth-sec
+  authbypass-authentication-flaws
   automate-this
   autoresearch
   avoid-ai-writing
@@ -217,26 +217,26 @@ their upstream is enough to restore them.
   chrome-devtools
   classical-cipher-analysis
   claude-handoff
-  clickjacking
   cli-mastery
+  clickjacking
   cloud-design-patterns
   cmdi-command-injection
-  codebase-design
-  codebase-memory-mcp
   code-exemplars-blueprint-generator
   code-obfuscation-deobfuscation
-  codeql
   code-review
   code-review-excellence
   code-tour
+  codebase-design
+  codebase-memory-mcp
+  codeql
   comment-code-generate-a-tutorial
   commit-message-storyteller
   competitive-landscape
   competitor-ad-intelligence
   competitor-teardown
   container-escape-techniques
-  containerize-aspnetcore
   containerize-aspnet-framework
+  containerize-aspnetcore
   content-management-systems
   context-driven-development
   context-map
@@ -291,12 +291,12 @@ their upstream is enough to restore them.
   daily-focus-board
   daily-prep
   dangling-markup-injection
-  database-migration
   data-breach-blast-radius
-  datanalysis-credit-risk
   data-quality-frameworks
-  dataset-curation
   data-storytelling
+  database-migration
+  datanalysis-credit-risk
+  dataset-curation
   dataverse-python-advanced-patterns
   dataverse-python-production-code
   dataverse-python-quickstart
@@ -334,17 +334,17 @@ their upstream is enough to restore them.
   dotnet-timezone
   dotnet-upgrade
   doublecheck
-  drawio
   draw-io-diagram-generator
+  drawio
   e2e-testing-patterns
   editorconfig
   ef-core
   efcore-d2-db-diagram
+  em-dash
   email-drafter
   email-header-injection
   embedded-captions
   embedding-strategies
-  em-dash
   employment-contract-templates
   entra-agent-id
   entra-agent-user
@@ -392,10 +392,10 @@ their upstream is enough to restore them.
   gdpr-compliant
   gdpr-data-handling
   gem-devops-guidelines
+  gen-specs-as-issues
   general-video
   generate-custom-instructions-from-codebase
   generate-image
-  gen-specs-as-issues
   geofeed-tuner
   gepeto
   gh-attach
@@ -416,15 +416,15 @@ their upstream is enough to restore them.
   gitmoji
   gitops-workflow
   go-concurrency-patterns
-  godot-gdscript-patterns
   go-mcp-server-generator
+  godot-gdscript-patterns
   grafana-dashboards
   graphql-and-hidden-parameters
   graphql-operations
   graphql-schema
-  grilling
   grill-me
   grill-with-docs
+  grilling
   grounded-vault
   grpo-rlvr-training
   gsap-framer-scroll-animation
@@ -447,9 +447,10 @@ their upstream is enough to restore them.
   heap-exploitation
   helm-chart-scaffolding
   hermes-tweet
-  http2-specific-attacks
+  house-rules
   http-host-header-attacks
   http-parameter-pollution
+  http2-specific-attacks
   hybrid-cloud-networking
   hybrid-search-implementation
   hyperframes
@@ -485,9 +486,9 @@ their upstream is enough to restore them.
   java-mcp-server-generator
   java-refactoring-extract-method
   java-refactoring-remove-parameter
+  java-springboot
   javascript-testing-patterns
   javascript-typescript-jest
-  java-springboot
   javax-to-jakarta-migration
   jndi-injection
   jwt-oauth-token-attacks
@@ -580,13 +581,13 @@ their upstream is enough to restore them.
   nuget-manager
   nx-workspace-patterns
   oauth-oidc-misconfiguration
-  onboard-context-matic
   on-call-handoff-patterns
+  onboard-context-matic
   oo-component-documentation
+  open-redirect
   openapi-spec-generation
   openapi-to-application-code
   opencode
-  open-redirect
   optimize-simplicite-logs
   parallel-debugging
   parallel-feature-development
@@ -616,27 +617,29 @@ their upstream is enough to restore them.
   power-apps-code-app-scaffold
   power-bi-dax-optimization
   power-bi-model-design-review
-  powerbi-modeling
   power-bi-performance-troubleshooting
   power-bi-report-design-consultation
   power-platform-architect
   power-platform-mcp-connector-suite
+  powerbi-modeling
   pptx-deck-context
   pptx-quality-gates
   pptx-reference-deck-analysis
   pptx-slide-specification
   pptx-visual-assets
   pr
-  prd
   pr-dashboard
+  pr-screenshots
+  pr-to-video
+  prd
   preference-optimization
   premium-frontend-ui
   press-release-writing
   product-changelog
   product-hunt-launch
   product-launch-video
-  projection-patterns
   project-workflow-analysis-blueprint-generator
+  projection-patterns
   prometheus-configuration
   prompt-engineering
   prompt-engineering-patterns
@@ -647,8 +650,6 @@ their upstream is enough to restore them.
   prototype
   prototype-pollution
   prototype-pollution-advanced
-  pr-screenshots
-  pr-to-video
   publish-to-pages
   pytest-coverage
   python-anti-patterns
@@ -683,6 +684,12 @@ their upstream is enough to restore them.
   quickshell
   race-condition
   rag-implementation
+  react-audit-grep-patterns
+  react-container-presentation-component
+  react-modernization
+  react-native-architecture
+  react-native-design
+  react-state-management
   react18-batching-patterns
   react18-dep-compatibility
   react18-enzyme-to-rtl
@@ -692,12 +699,6 @@ their upstream is enough to restore them.
   react19-concurrent-patterns
   react19-source-patterns
   react19-test-patterns
-  react-audit-grep-patterns
-  react-container-presentation-component
-  react-modernization
-  react-native-architecture
-  react-native-design
-  react-state-management
   readme-blueprint-generator
   receiving-code-review
   recon-and-methodology
@@ -711,8 +712,8 @@ their upstream is enough to restore them.
   remotion-to-hyperframes
   repo-standardizer
   repo-story-time
-  requesting-code-review
   request-smuggling
+  requesting-code-review
   research
   resemble-detect
   resolving-merge-conflicts
@@ -768,6 +769,7 @@ their upstream is enough to restore them.
   signed-audit-trails-recipe
   similarity-search-patterns
   skill-creator
+  skill-routing
   slang-shader-engineer
   slideshow
   slo-implementation
@@ -783,10 +785,10 @@ their upstream is enough to restore them.
   sponsor-finder
   spring-boot-testing
   sql-code-review
-  sqli-sql-injection
   sql-object-impact-analysis
   sql-optimization-patterns
   sql-server-table-reconciliation
+  sqli-sql-injection
   ssma-console
   ssrf-server-side-request-forgery
   ssti-server-side-template-injection
@@ -808,8 +810,8 @@ their upstream is enough to restore them.
   swift-mcp-server-generator
   symbolic-execution-tools
   symmetric-cipher-attacks
-  systematic-debugging
   system-commandline-cli
+  systematic-debugging
   tailwind-design-system
   talking-head-recut
   task-coordination-strategies
@@ -878,11 +880,11 @@ their upstream is enough to restore them.
   wait-what
   wayfinder
   wcag-audit-patterns
-  web3-testing
-  webapp-testing
   web-cache-deception
   web-component-design
   web-design-reviewer
+  web3-testing
+  webapp-testing
   webmcpify
   websocket-security
   what-context-needed
@@ -903,9 +905,9 @@ their upstream is enough to restore them.
   writing-plans
   writing-shape
   writing-skills
+  x-twitter-scraper
   xslt-injection
   xss-cross-site-scripting
-  x-twitter-scraper
   xxe-xml-external-entity
 ```
 
