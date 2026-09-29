@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    "opencode-froggy",
+    "/home/maxii/.local/share/ponytail/opencode-v2"
+  ],
+  "skills": [
+    "/home/maxii/.local/share/ponytail/skills"
+  ],
+  "default_agent": "super"
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "name": "tokyonight"
+  },
+  "keybinds": {
+    "session.tab.close": "<leader>w,ctrl+w",
+    "session.new": "<leader>n,ctrl+t",
+    "input.delete.word.backward": "ctrl+backspace,alt+backspace",
+    "variant.cycle": "none"
+  }
+}

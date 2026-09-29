@@ -1,0 +1,26 @@
+# ------------------------------------------------------------------
+# opencode-backup — .gitignore
+# Machine-specific secrets and local junk must never be committed.
+# ------------------------------------------------------------------
+
+# Machine secrets — the real file contains a plaintext password.
+# Only a redacted placeholder (config/service.json.example) may exist.
+config/service.json
+**/service.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*ntlm*creds*
+
+# Local tool caches / node artifacts
+.cache/
+node_modules/
+dist/
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~

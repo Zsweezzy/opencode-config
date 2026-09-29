@@ -1,0 +1,36 @@
+{
+  "name": "opencode-froggy",
+  "version": "1.3.0",
+  "registry": "npm",
+  "license": "MIT",
+  "configEntry": "config/opencode.json -> plugins: [\"opencode-froggy\"]",
+  "install": "OpenCode resolves this plugin from the npm registry automatically when the config entry is present. Offline fallback: unpack deps/opencode-froggy-1.3.0.tgz into the OpenCode plugin cache (~/.cache/opencode/npm/opencode-froggy@latest/<hash>/node_modules/).",
+  "vendoredArtifact": "deps/opencode-froggy-1.3.0.tgz",
+  "vendoredArtifactBytes": 345981,
+  "bundledSkills": [
+    "tdd",
+    "extreme-programming",
+    "backlog-management",
+    "ask-questions-if-underspecified"
+  ],
+  "bundledTools": [
+    "agent-promote",
+    "browser.preview",
+    "browser.tabs.list",
+    "browser.tabs.open",
+    "eth-address-balance",
+    "eth-address-txs",
+    "eth-token-transfers",
+    "eth-transaction",
+    "gitingest",
+    "list-child-sessions",
+    "opencode.list_mcp_resources",
+    "opencode.read_mcp_resource",
+    "opencode.session_move",
+    "opencode.session_rename",
+    "pdf-to-markdown",
+    "prompt-session"
+  ],
+  "sourceInstance": "~/.cache/opencode/npm/opencode-froggy@latest/*/node_modules/opencode-froggy",
+  "notes": "The 4 bundled skills are delivered by the plugin itself (not by ~/.agents/skills). A fresh install advertises 869 repo skills + 4 plugin skills = 873 skill IDs."
+}
